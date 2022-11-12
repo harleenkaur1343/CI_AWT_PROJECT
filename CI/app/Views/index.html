@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 1</title>
+    <link rel="stylesheet" type="text/css" href="http://localhost/CI/public/css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Milonga&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        padding:0;
+        margin:0 ;
+        font-family: Raleway;
+    }
+    div#navbar{
+        padding: 25px 100px;
+        background: #fff;
+    }
+    div#navbar>img{
+        float:left;
+    }
+    div#navbar li#signbtn{
+        margin-top:5px;
+    }
+    div#navbar a.navi-links{
+        letter-spacing: 0.15em;
+        font-weight: 500;
+    }
+    div#header{
+        background-image: url(http://localhost/CI/public/images/Vector_6.png), url(http://localhost/CI/public/images/Vector_7.png), url(http://localhost/CI/public/images/bgimage.png);
+        background-size:cover;
+        background-position: 0px 62px, 0px -44px, center;
+        height:600px;
+        width:100%;
+        padding: 0 0 0 0;
+        margin:0;
+        position:relative;
+        background-repeat: no-repeat;
+        overflow:hidden;
+        
+    }
+    .nav-item{
+        font-size: 14px;
+    }
+    a.sign_up_button{
+        background: #1A1A1A;
+        border-radius: 2px;
+        padding: 12px 28px;
+        text-decoration: none;
+        color:white;
+        font-size:14px;
+        margin:2px 0 0 10px !important;
+    }
+    a.sign_up_button:hover{
+        box-shadow: 2px 4px 12px 0px #5959599a;
+    }
+    #modelhead_pic{
+        position: absolute;
+        left: 800px;
+        top: 80px;
+    }
+    div#header h1{       
+        background: linear-gradient(180deg, #FFFFFF 0%, #BFBFBF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    
+        font-family: 'Cinzel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 135px;
+/* identical to box height */
+
+        text-align: left;
+        letter-spacing: 0.15em;
+    }
+    div#header h6{
+        font-family: 'Raleway';
+        font-weight: 200;
+        font-size: 32px;
+        line-height: 45px;
+        color:white;
+        text-align: left !important;
+        width:450px;
+       
+    }
+    div.col-sm-6{
+        margin:0;
+        padding:0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    /*Main section begins*/
+    .main{
+        height: fit-content;
+        margin:0 0px;
+        position:relative;
+        padding:0 0 0 0;
+
+    }
+    section{
+        padding:0 100px;
+        margin-bottom: 96px;
+    }
+    section h2{
+        font-family: "Darker Grotesque";
+        font-weight: 500;
+        font-size: 54px;
+        line-height: 73px;
+        letter-spacing: 0.02em;
+        margin:0 0 20px 0;
+    }
+    section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        top:112px;
+        position: relative;
+        left:50%;
+        transform: translateX(-50%);
+        width:100%;
+    }
+    section.s2{
+        background-image: url("http://localhost/CI/public/images/Polygon\ 2.png");
+        background-size: cover;
+        height:800px;
+        top: 96px;
+    }
+    section.s1 .tops-img-cont>img{
+        object-fit: contain;
+        max-width: 100%;
+        height:auto;
+        min-width: 400px;
+    }
+    section.s1 .tops-text-cont>h2{
+        font-family: Milonga;
+    }
+    section.s2 h3{
+        color:#FFE2C7;
+        font-family: Raleway;
+        font-size: 36px;
+        font-weight: 300;
+    }
+    section.s1 .tops-text-cont>.shopbtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 24px;
+        gap: 12px;
+        color:white;
+        /*width: 147px;*/
+        height: 50px;
+
+        background: #000000;
+        border-radius: 2px;
+    }
+    section.s1 .tops-text-cont>.shopbtn>span{
+        margin-top:-3px;
+        font-size: 16px;
+    }
+    .carousel-control-next{
+        right:-100px;
+    }
+    .carousel-control-prev{
+        left:-100px;
+    }
+    section.s2 .headings{
+        margin-bottom: 140px 0px 18px 0px;
+        color:#fff;
+    }
+    section.s2 img#bagscoll{
+        animation-name: bagsentry;
+        animation-duration: 2s;
+        position:relative;
+    }
+    @keyframes bagsentry {
+        from{
+            left:-500px;
+        }
+        to{
+            left:0;
+        }
+    }
+    section.s2 .text-content>p{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+/* or 156% */
+        width: 368px;
+        letter-spacing: 0.02em;
+        color: #cccccc;
+    }
+    section.s2 .see-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 15px;
+        gap: 8px;
+
+        /*bg gradient*/
+        background-color:#EF5656;
+        border: 2px solid transparent;
+        border-radius: 15px 0;
+        color:#fff;
+        font-family: Raleway;
+        font-weight: 600;
+        width:fit-content;
+     
+    }
+    .rectline{
+        width:140px;
+        background-color:#FFE2C7;
+        height:15px;
+        display: block;
+    }
+    .row{
+        width:100%;
+    }
+    /*Rectangles design*/
+    .main #rectbg{
+        background-color: #efefef; 
+        height:88px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .main #rectbg>.subrects{
+        height:88px;
+        background-color: hsl(0, 0%, 89%);
+        width: 300px;
+    }
+    /*rectangles ended*/
+    /*Section 3*/
+    section.s3{
+        background-color: #0d0d0d;
+        padding:112px 0;
+        color: #fff;
+        position: relative;
+        top:0px;
+        margin:0px;
+    }
+    section.s3>h2{
+        color:white;
+    }
+    section.s3 #footwear_sec{
+       /* border: 1px solid #fff;*/
+    }
+    section.s3 #footwear_sec .white-circles-bg{
+        width: 180px;
+        height: 180px;
+        border-radius: 100px;
+        background-color: #FFFFFF;
+    }
+    section.s3 .content-cont{
+        padding:36px 42px;
+    }
+    section.s3 .content-cont:hover{
+        background-color: #1A1A1A;
+        cursor: pointer;
+    }
+    section.s3 .content-cont p{
+        /*font-family: 'Poppins';*/
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height */
+        letter-spacing: 0.02em;
+        margin:20px 0;
+    }
+    section.s3 .shopfootbtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 32px;
+        gap: 8px;
+
+        /*bg gradient*/
+        background:linear-gradient(#0d0d0d,#0d0d0d) padding-box,
+        linear-gradient(to right,hsla(360, 83%, 64%, 1),hsla(29, 100%, 85%, 1)) border-box;
+        border: 1px solid transparent;
+        border-radius: 15px 0;
+        color:#FFD4AD;
+        font-family: Raleway;
+        font-weight: 400;
+        width:fit-content;
+        letter-spacing: 0.02em;
+    }
+    section.s3 .shopfootbtn:hover{
+        background:linear-gradient(to right,#EF5656,#af0a25) ;
+        border:none;
+        cursor:pointer;
+        font-weight: 700;
+        color:white;
+        box-shadow: 2px 4px 15px 0px rgb(51, 21, 21);
+        padding: 13px 33px;
+
+    }
+    .footer{
+        background-color: #151515;
+        padding:80px 0;
+        position: relative;
+        color:#cccccc;
+    }
+    .footer .copyright{
+        font-family: Verdana;
+        font-size:15px;
+    }
+    .footer>.row{
+        max-width:75%;
+        min-width:375px;
+    }
+    .footer .footinfo>a{
+        text-decoration: none;
+        color:#cccccc;
+        font-family: Verdana;
+        font-size:14px;
+    }
+</style>
+<body>
+    <div class="container-fluid" id="navbar">
+        <img src="http://localhost/CI/public/images/logo_light.PNG" alt="logo-nav">
+        <div class="nav-items-cont">
+            <ul class="nav d-flex justify-content-end align-content-baseline">
+                <li class="nav-item me-3">
+                    <a href="#" class="nav-link text-dark navi-links">HOME</a>
+                </li>
+                <li class="nav-item me-3">
+                    <a href="#" class="nav-link text-dark navi-links">STORE</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark navi-links">CONTACT</a>
+                </li>
+                <li id="signbtn">
+                    <a class="sign_up_button" href="http://localhost/CI/public/signup">Sign up</a>
+                </li>
+                </ul>
+        </div>
+    </div>
+    <div class="row" id="header">
+        <div class="col-sm-6">
+            <div class="headtext">
+                <h1>ZAMVE</h1>
+                <h6><span style="color:#FEA6A6;">Most Trusted Brand</span> in Women Fashion wear</h6>    
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <img src="http://localhost/CI/public/images/fashion_1.png" id="modelhead_pic">
+        </div>
+    </div>
+    <!--Main starting-->
+    <div class="main">
+        <section class="s1">
+            <div class="headings d-flex flex-column align-items-center justify-content-center align-items-center">
+                <h2>Newest Summer Collection 2022</h2>
+                <div class="rectline"></div>
+            </div><br><br><br><br><br>
+            <!--The carousel starts-->
+            <div id="carouselExample1" class="carousel slide z-depth-1-half container-fluid" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!--Slide 1 tops-->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-8 tops-img-cont">
+                                <img src="http://localhost/CI/public/images/top group pic.png">
+                            </div>
+                            <div class="col-4 tops-text-cont d-flex flex-column align-content-center justify-content-center align-items-center">
+                                <h2>Formal & Casual Tops</h2><br>
+                                <div class="shopbtn align-self-start">
+                                    <span>Shop now</span>
+                                    <img src="http://localhost/CI/public/images/fluent_arrow-right-20-regular.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slide 2 dresses-->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-4 tops-text-cont d-flex flex-column align-content-center justify-content-center align-items-center">
+                                <h2>Dresses for every Outing</h2><br>
+                                <div class="shopbtn align-self-start">
+                                    <span>Shop now</span>
+                                    <img src="http://localhost/CI/images/fluent_arrow-right-20-regular.svg">
+                                </div>
+                            </div>
+                            <div class="col-8 tops-img-cont d-flex justify-content-center align-items-end">
+                                <img src="http://localhost/CI/public/images/dress group pic.png">
+                            </div>
+                        </div>
+                    </div>
+                </div><br><br><br>
+                    <!--Slides finished-->
+                      <a class="carousel-control-prev" data-bs-target="#carouselExample1" data-bs-slide="prev" role="button">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" data-bs-target="#carouselExample1" data-bs-slide="next" role="button">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                      <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExample1" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselExample1" data-bs-slide-to="1"></button>
+                </div>
+            </div>
+        </section>
+        <!--section 2-->
+        <section class="s2">
+            <div class="headings d-flex flex-column align-items-center justify-content-center align-items-center">
+                <h2>Stunning Handbags for Women  </h2>
+                <div class="rectline"></div>
+            </div><br>
+            <div class="row" id="s2-content-row">
+                <div class="col-sm-6">
+                    <img src="http://localhost/CI/public/images/bags.png" alt="bags" id="bagscoll">
+                </div>
+                <div class="col-sm-6">
+                    <div class="text-content">
+                        <h3>Flat 30% OFF</h3><br>
+                        <p>Get fashionable handbags starting from Rs. 175. Shop for ladies handbags and purses from top brands for Work, Travel, and Leisure.</p>
+                        <br>
+                        <div class="see-button">See more<span><img src="http://localhost/CI/public/images/fluent_arrow-right-20-regular.svg" alt="arrow"></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section 2 end-->
+        <!--rectangle design-->
+        <div class="container-fluid" id="rectbg">
+            <div class="subrects"></div>
+            <div class="subrects"></div>  
+        </div>
+        <!--ended-->
+        <section class="s3 container-fluid">
+            <h2>Comfort & Style</h2><br>
+            <!--Grid for item-->
+            <div class="row" id="footwear_sec">
+                <div class="col-sm-4 d-flex justify-content-center align-items-center">
+                    <div class="content-cont d-flex flex-column justify-content-center align-items-center">
+                        <div class="white-circles-bg d-flex justify-content-center align-items-center">
+                            <img src="http://localhost/CI/public/images/sneakers.png" alt="sneakers">
+                        </div>
+                        <p>Sneakers</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center align-items-center">
+                    <div class="content-cont d-flex justify-content-center align-items-center flex-column">
+                        <div class="white-circles-bg d-flex justify-content-center align-items-center">
+                            <img src="http://localhost/CI/public/images/heels.png" alt="heels">
+                        </div>
+                        <p>Heels</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center align-items-center">
+                    <div class="content-cont d-flex flex-column justify-content-center align-items-center">
+                        <div class="white-circles-bg  d-flex justify-content-center align-items-center">
+                            <img src="http://localhost/CI/public/images/bellies.png" alt="bellies">
+                        </div>
+                        <p>Bellies</p>
+                    </div>
+                </div>
+            </div><br>
+            <div class="shopfootbtn">
+                Shop Footwear
+            </div>    
+        </section>
+    </div>
+    <footer class="footer container-fluid d-flex flex-column justify-content-center align-items-center">
+        <img src="http://localhost/CI/public/images/logo_dark.PNG" alt="logo">
+        <br>
+        <p class="copyright">&copy; 2019 - 2033 Zavme Pvt Limited</p>
+        <div class="socialic-cont">
+            <img src="http://localhost/CI/public/images/facebook.svg" alt="facebook-icon">&nbsp;&nbsp;
+            <img src="http://localhost/CI/public/images/instagram.svg" alt="instagram-icon">&nbsp;&nbsp;
+            <img src="http://localhost/CI/public/images/twitter.svg" alt="twitter-icon">
+        </div><br><br>
+        <div class="row">
+            <div class="col-4 d-flex justify-content-end footinfo">
+                <a href="#">zavmeofficial@gmail.com</a>
+            </div>
+            <div class="col-4 col-4 d-flex justify-content-center footinfo">
+                <a href="#">+91 1234567890</a>
+            </div>
+            <div class="col-4 col-4 d-flex justify-content-start footinfo">
+                <a href="#">29-C Rose Enclave, Ludhiana, Punjab</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
