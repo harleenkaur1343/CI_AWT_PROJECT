@@ -1,0 +1,541 @@
+CRITICAL - 2022-11-10 02:27:04 --> Invalid file: index.html
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH\\index.html')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('FCPATH\\index.html', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('FCPATH\\index.html')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 03:38:37 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 03:38:50 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 03:38:56 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 03:39:29 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 03:39:29 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 03:39:29 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 03:39:30 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 08:14:22 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 08:14:55 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 08:15:25 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 08:15:26 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 08:15:27 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 08:17:10 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\User.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\User')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-10 08:18:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\CI\app\Controllers\User.php(18): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\User->login_action()
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\CI\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\CI\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\CI\app\Controllers\User.php(18): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\User->login_action()
+#7 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-10 08:18:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `logininfo`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\User.php(18): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->login_action()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 12:33:23 --> Class "Codeigniter\Controller" not found
+in APPPATH\Controllers\login.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\login.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\login')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\login')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\login', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 14:02:04 --> syntax error, unexpected variable "$model"
+in APPPATH\Controllers\signup.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\signup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\signup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\signup')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\signup', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 14:02:45 --> syntax error, unexpected variable "$model"
+in APPPATH\Controllers\signup.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\signup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\signup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\signup')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\signup', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 14:02:46 --> syntax error, unexpected variable "$model"
+in APPPATH\Controllers\signup.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\signup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\signup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\signup')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\signup', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 14:06:07 --> syntax error, unexpected variable "$model"
+in APPPATH\Controllers\signup.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\signup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\signup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\signup')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\signup', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 14:07:27 --> syntax error, unexpected variable "$model"
+in APPPATH\Controllers\signup.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\signup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\signup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\signup')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\signup', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 14:08:49 --> syntax error, unexpected variable "$db"
+in APPPATH\Controllers\signup.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\signup.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\signup')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\signup')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\signup', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-10 14:13:08 --> mysqli_sql_exception: Column 'email' cannot be null in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:13:25 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-10 14:14:30 --> Undefined variable $table
+in APPPATH\Controllers\signup.php on line 21.
+ 1 APPPATH\Controllers\signup.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'APPPATH\\Controllers\\signup.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\signup->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-10 14:14:52 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:16:51 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:17:04 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:21:25 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:23:48 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:25:38 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:25:38 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:25:39 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:25:40 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:25:41 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:26:23 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-10 14:29:28 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-10 14:29:28 --> Undefined property: App\Controllers\signup::$db
+in APPPATH\Controllers\signup.php on line 28.
+ 1 APPPATH\Controllers\signup.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\signup::$db', 'APPPATH\\Controllers\\signup.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\signup->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 14:29:41 --> Undefined variable $table
+in APPPATH\Controllers\signup.php on line 21.
+ 1 APPPATH\Controllers\signup.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'APPPATH\\Controllers\\signup.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\signup->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-10 14:30:28 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-10 14:30:28 --> Array to string conversion
+in APPPATH\Controllers\signup.php on line 28.
+ 1 APPPATH\Controllers\signup.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\signup.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\signup->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-10 14:30:45 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-10 14:30:45 --> Undefined constant "App\Controllers\email"
+in APPPATH\Controllers\signup.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\signup->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-10 14:30:59 --> mysqli_sql_exception: Duplicate entry '123' for key 'Password' in C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\CI\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\CI\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\CI\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\CI\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CI\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CI\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\CI\app\Controllers\signup.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\CI\system\CodeIgniter.php(927): App\Controllers\signup->insert()
+#9 C:\xampp\htdocs\CI\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+#10 C:\xampp\htdocs\CI\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-10 14:44:52 --> Declaration of App\Models\UserModel::insert($data) must be compatible with CodeIgniter\Model::insert($data = null, bool $returnID = true)
+in APPPATH\Models\UserModel.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-10 14:45:15 --> Declaration of App\Models\UserModel::insert($data) must be compatible with CodeIgniter\Model::insert($data = null, bool $returnID = true)
+in APPPATH\Models\UserModel.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-10 14:45:57 --> Declaration of App\Models\UserModel::insert($data = null) must be compatible with CodeIgniter\Model::insert($data = null, bool $returnID = true)
+in APPPATH\Models\UserModel.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-10 14:45:58 --> Declaration of App\Models\UserModel::insert($data = null) must be compatible with CodeIgniter\Model::insert($data = null, bool $returnID = true)
+in APPPATH\Models\UserModel.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-10 14:46:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+in APPPATH\Models\UserModel.php on line 13.
+ 1 APPPATH\Controllers\signup.php(22): App\Models\UserModel->insert([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\signup->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\signup))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
